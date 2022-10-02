@@ -1,3 +1,8 @@
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+import java.time.LocalDateTime
+
 fun main() {
     val id = 40
 
@@ -12,6 +17,13 @@ fun main() {
     listExample()
     mapExample()
     useUser()
+    coroutines()
+    callJava()
+    callLocalDateTime()
+    greet()
+    val function = CalcJava { num1, num2 -> num1 + num2 }
+    executeCalc(1, 3, function)
+
 }
 
 fun check50Over(number: Int): Boolean {
@@ -78,6 +90,10 @@ fun listExample() {
     for (i in intList) {
         println("intList: $i")
     }
+    intList.forEach {
+        println(it)
+    }
+    intList.first { it == 1 }
     val mutableList: MutableList<Int> = mutableListOf()
     mutableList.addAll(5..8)
     for (i in mutableList) {
@@ -115,4 +131,32 @@ fun useUser() {
 
 fun createUser(name: String?): User? {
     return name?.let { User(it) }
+}
+
+fun coroutines() {
+    GlobalScope.launch {
+        delay(1000L)
+        println("huge")
+    }
+    print("My name is ")
+    Thread.sleep(2000L)
+}
+
+fun callJava() {
+    val hello = HelloByJava()
+    hello.printHello()
+}
+
+fun callLocalDateTime() {
+    val now = LocalDateTime.now()
+    println(now)
+}
+
+fun greet() {
+    val greet = GreeterImplKotlin()
+    greet.hello()
+}
+
+fun executeCalc(num1: Int, num2: Int, function: CalcJava) {
+    println(function.calc(num1, num2))
 }

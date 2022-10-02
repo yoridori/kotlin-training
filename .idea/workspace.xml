@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f0efbc8-ef74-43ea-a6c0-e89d1fe417ae" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Animal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Dog.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Example.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/User.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CalcJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GreeterJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HelloByJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/GreeterImplKotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HelloByKotlin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Example.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Example.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Interface" />
+        <option value="Kotlin Data Class" />
       </list>
     </option>
   </component>
@@ -76,6 +82,13 @@
   }
 }]]></component>
   <component name="RunManager" selected="Kotlin.ExampleKt">
+    <configuration name="JavaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaMain" />
+      <module name="kotlin-training.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExampleKt" />
       <module name="kotlin-training.main" />
@@ -93,6 +106,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.ExampleKt" />
+        <item itemvalue="アプリケーション.JavaMain" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
@@ -108,7 +122,7 @@
       <workItem from="1664503726842" duration="1299000" />
       <workItem from="1664505065854" duration="1542000" />
       <workItem from="1664551330623" duration="1381000" />
-      <workItem from="1664552738767" duration="10804000" />
+      <workItem from="1664552738767" duration="17443000" />
     </task>
     <servers />
   </component>
